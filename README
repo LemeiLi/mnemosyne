@@ -1,3 +1,12 @@
+--------------------------------------------------------------------
+0. prepare
+--------------------------------------------------------------------
+➜ git config --global user.name "LemeiLi"
+➜ git config --global user.email "strategicfocus@163.com"
+
+➜ ssh-keygen -t ed25519 -C "strategicfocus@163.com"
+
+---------------------------------------------------------------------
 create a new repository on the command line:
 ---------------------------------------------------------------------
 echo "# unit_test" >> README.md
